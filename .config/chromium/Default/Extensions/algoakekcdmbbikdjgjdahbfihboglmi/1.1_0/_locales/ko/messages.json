@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "응용 프로그램 설명",
+      "message": "브라우저에서 3D 모델링"
+   },
+   "appName": {
+      "description": "응용 프로그램 이름",
+      "message": "3DTin"
+   }
+}

@@ -1,0 +1,176 @@
+;
+; this config is written for an unreleased version (lemonbuddy "wip-lemonbar" branch)
+; it might need some tweaking to run on the latest released version... try for yourself
+;
+
+[bar/top]
+width = 100%
+height = 27
+
+background = #222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-bottom = 2
+border-bottom-color = #333333
+
+spacing = 1
+lineheight = 50
+padding_left = 2
+padding_right = 2
+module_margin_left = 1
+module_margin_right = 2
+
+font-0 = envypn:style=Regular:size=10;0
+font-1 = Siji:pixelsize=10;0
+font-2 = Termsyn:size=8;0
+
+modules-left = mpd
+modules-center = i3
+modules-right = volume wifi memory cpu date
+
+
+[bar/external_bottom]
+monitor = HDMI-1
+bottom = true
+width = 100%
+height = ${bar/top.height}
+
+background = ${bar/top.background}
+foreground = ${bar/top.foreground}
+linecolor = ${bar/top.linecolor}
+
+border-top = 2
+border-top-color = #333333
+
+spacing = ${bar/top.spacing}
+lineheight = ${bar/top.lineheight}
+padding_right = ${bar/top.padding_right}
+module_margin_left = ${bar/top.module_margin_left}
+module_margin_right = ${bar/top.module_margin_right}
+
+font-0 = ${bar/top.font-0}
+font-1 = ${bar/top.font-1}
+
+modules-left = i3
+modules-right = date
+
+
+[module/i3]
+type = internal/i3
+format = <label-state>
+
+workspace_icon-0 = 1;
+workspace_icon-1 = 2;
+workspace_icon-2 = 3;
+workspace_icon-3 = 4;
+workspace_icon-4 = 5;
+workspace_icon-default = 
+
+label-focused = %icon%
+label-focused-background = #3f3f3f
+label-focused-padding = 2
+
+label-unfocused = %icon%
+label-unfocused-padding = 2
+
+label-urgent = %icon%
+label-urgent-background = #bd2c40
+label-urgent-padding = 2
+
+label-visible = %icon%
+label-visible-foreground = #444
+label-visible-padding = 2
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+label = %{F#666}%{F#ccfafafa} %percentage%
+
+
+[module/memory]
+type = internal/memory
+interval = 2
+label = %{F#666}%{F#ccfafafa} %percentage_used%
+
+
+[module/wifi]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+label-connected = %essid% %{F#66}%local_ip%
+label-disconnected = %{F#666}%{F#ccfafafa} not connected
+label-disconnected-foreground = #66
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #666
+
+
+[module/date]
+type = internal/date
+date = %%{T3}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#fba922}%%{F#ccfafafa} %H:%M%%{T-}
+interval = 5
+
+
+[module/volume]
+type = internal/volume
+;speaker_mixer = Speaker
+;headphone_mixer = Headphone
+;headphone_control_numid = 9
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%
+label-volume-foreground = ${BAR.foreground}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-foreground = #666
+
+label-muted = %{F#666}%{F#ccfafafa} sound muted
+label-muted-foreground = #99
+
+
+[module/mpd]
+type = internal/mpd
+
+format-online = <label-song>  <label-time>  <bar-progress>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
+format-offline = <label-offline>
+format-offline-foreground = #66
+label-offline = mpd is off
+
+icon-prev = 
+icon-seekb = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+icon-seekf = 
+
+icon-random = 
+icon-repeat = 
+
+toggle_on-foreground = #fba922
+toggle_off-foreground = #66
+
+bar-progress-width = 15
+bar-progress-indicator = 
+bar-progress-indicator-foreground = #bb
+bar-progress-fill = ─
+bar-progress-fill-foreground = #bb
+bar-progress-fill-font = 3
+bar-progress-empty = ─
+bar-progress-empty-foreground = #44
+bar-progress-empty-font = 3
+
+label-time-foreground = #55
+
+; vim:ft=dosini

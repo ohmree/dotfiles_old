@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App описание",
+      "message": "3D моделирование в браузере"
+   },
+   "appName": {
+      "description": "Имя приложения",
+      "message": "3DTin"
+   }
+}

@@ -1,0 +1,7 @@
+[Added Associations]
+application/x-compressed-tar=xarchiver.desktop;
+text/html=elinks.desktop;
+application/zip=xarchiver.desktop;
+text/x-patch=userapp-nvim-1B1YNY.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;

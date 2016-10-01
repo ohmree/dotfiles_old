@@ -1,0 +1,113 @@
+{
+   "@disable_on_this_host": {
+      "message": "Disable LivePage for this host"
+   },
+   "@disable_on_this_page": {
+      "message": "Disable LivePage on this page"
+   },
+   "@enable_on_this_host": {
+      "message": "Enable LivePage for this host"
+   },
+   "@enable_on_this_page": {
+      "message": "Enable LivePage on this page"
+   },
+   "@file_protocol_needs_enabling": {
+      "message": "Sorry, the file:// protocol needs enabling. Please check the \"Allow access to file URLs\" for LivePage on the extensions page (chrome://chrome/extensions/)."
+   },
+   "@language_css": {
+      "message": "CSS"
+   },
+   "@language_html": {
+      "message": "HTML"
+   },
+   "@language_javascript": {
+      "message": "JavaScript"
+   },
+   "@live": {
+      "message": "Live"
+   },
+   "@options_allow_access_to_files": {
+      "message": "To use use the file:// protocol, make sure on the extension page (chrome://chrome/extensions/), you have ticked \"Allow access to file URLs\" for the LivePage extension."
+   },
+   "@options_clear_all": {
+      "message": "Clear All"
+   },
+   "@options_contribute_and_support": {
+      "message": "Contribute & report bugs via GitHub"
+   },
+   "@options_developed_by": {
+      "message": "Made in London by"
+   },
+   "@options_entire_hosts": {
+      "message": "Run LivePage on entire domains"
+   },
+   "@options_h2_advanced_settings": {
+      "message": "Advanced Settings:"
+   },
+   "@options_h2_notes": {
+      "message": "Notes:"
+   },
+   "@options_h2_refresh_rate": {
+      "message": "Polling Settings:"
+   },
+   "@options_h2_should_monitor": {
+      "message": "LivePage should monitor:"
+   },
+   "@options_h2_url_list": {
+      "message": "LivePage will run on:"
+   },
+   "@options_ignore_anchors": {
+      "message": "Ignore URL anchors"
+   },
+   "@options_livepage_links": {
+      "message": "LivePage Links"
+   },
+   "@options_livepage_links_note": {
+      "message": "Monitor adhoc files using:"
+   },
+   "@options_persist_scroll_points": {
+      "message": "Attempt to persist scroll X/Y positions"
+   },
+   "@options_refresh_rate": {
+      "message": "Poll for updates every:"
+   },
+   "@options_refresh_rate_milliseconds": {
+      "message": "ms"
+   },
+   "@options_refresh_rate_note": {
+      "message": "Local development can safely be set to less than 175ms, developing on a live production server should be 250ms or higher."
+   },
+   "@options_skip_external": {
+      "message": "Skip external resources such as googleapis.com or CDNs"
+   },
+   "@options_tidy_html": {
+      "message": "Ignore comments in HTML"
+   },
+   "@options_tidy_inline_html": {
+      "message": "Ignore inline JavaScript & hidden fields in HTML"
+   },
+   "@options_title": {
+      "message": "LivePage - Options"
+   },
+   "@options_tweet_me": {
+      "message": "Contact me"
+   },
+   "@options_url_list_empty": {
+      "message": "No URLs are currently live, clicking the icon next to the address bar will make a page live :)"
+   },
+   "@protocol_not_supported": {
+      "message": "Sorry, the protocol used on this page is not supported."
+   },
+   "browser_action": {
+      "message": "Enable LivePage on this page"
+   },
+   "description": {
+      "message": "LivePage reloads website resources such as CSS, HTML and JavaScript as they update on the server."
+   },
+   "name": {
+      "message": "LivePage"
+   },
+   "short_name": {
+      "message": "LivePage"
+   }
+}

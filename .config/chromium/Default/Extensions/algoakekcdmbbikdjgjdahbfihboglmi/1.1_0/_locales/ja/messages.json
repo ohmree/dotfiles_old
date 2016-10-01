@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "アプリケーションの説明",
+      "message": "ブラウザで3Dモデリング"
+   },
+   "appName": {
+      "description": "アプリケーション名",
+      "message": "3DTin"
+   }
+}

@@ -1,0 +1,23 @@
+# jumanji configuration
+# search engines
+searchengine ddg https://www.duckduckgo.com/?q=%s
+#searchengine ggl https://www.google.com/search?q=%s
+#searchengine wiki https://en.wikipedia.org/w/index.php?search=%s
+# browser settings
+set homepage https://www.duckduckgo.com
+set auto_save 60
+set single_instance false
+# Use privoxy for adblocking
+#set proxy localhost:8118 
+# look n feel
+set font "Input:style=Regular 13"
+set stylesheet file:///home/inxs/.config/jumanji/style.css 
+# follow hints
+script ~/.config/jumanji/scripts/hinting.js
+# downloads
+set download-dir ~/Downloads/
+set download_command wget --load-cookies ~/.config/jumanji/cookies '%s' -O '%s';
+# keybindings
+#map <C-,> navigate_history previous
+#map <C-.> navigate_history next
+bmap ^DD$ quit

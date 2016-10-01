@@ -1,0 +1,12 @@
+set
+set preview_images true
+set draw_borders
+set draw_borders=True
+set draw_borders=False
+delete
+find de
+search 
+set preview_images=True
+!yaourt materialicons
+!
+shell yaourt materialicons

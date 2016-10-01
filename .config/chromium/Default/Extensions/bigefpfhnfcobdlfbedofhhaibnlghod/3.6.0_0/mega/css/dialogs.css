@@ -1,0 +1,217 @@
+.fm-dialog-footer {
+    height: 56px;
+    background-color: #F6F6F6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-left-radius: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 12px 12px 0 12px;
+}
+/* Send Contact Dialog */
+.fm-dialog.send-contact {
+    width: 644px;
+    margin: -246px 0 0 -322px;
+}
+.fm-dialog .contacts-search-scroll {
+    height: 336px !important;
+}
+.fm-dialog .contacts-search-scroll, .fm-dialog .contacts-search-scroll .jspPane {
+    background-position: 0 -48px;
+}
+.fm-dialog .contacts-info.body.contacts-search {
+    height: 48px;
+    padding: 6px 0;
+    cursor: pointer;
+    background-color: #fafafa;
+}
+.fm-dialog .contacts-info.body.contacts-search:nth-child(odd) {
+    background-color: white;
+}
+.contacts-info.body.contacts-search.selected {
+    background-color: #2ba6de;
+    color: white;
+}
+.contacts-info.body.contacts-search.selected:nth-child(odd) {
+    background-color: #2ba6de;
+}
+.contacts-info.body.contacts-search.selected span, .contacts-info.body.contacts-search.selected .user-card-email {
+    color: white;
+}
+.contacts-info.body.contacts-search.selected .user-card-presence {
+    background-color: white;
+}
+.fm-dialog .contacts-search-header {
+    padding-top: 10px;
+}
+.contacts-search .user-card-name span {
+    margin-top: -4px;
+    color: #666666;
+}
+.contacts-search-footer {
+    height: 46px;
+    display: block;
+}
+.contacts-search-footer em {
+    display: block;
+    color: #2ba6de;
+    font-style: normal;
+    text-align: center;
+    line-height: 46px;
+    vertical-align: middle;
+}
+/* End of Send Contact Dialog */
+
+/* Add From Cloud Dialog */
+.fm-dialog.add-from-cloud {
+    width: 644px;
+    margin: -246px 0 0 -322px;
+}
+.fm-dialog .fm-breadcrumbs-block {
+    float: none;
+    height: 40px;
+    margin: 0 0 19px 0;
+    padding: 22px 0 0 16px;
+}
+.fm-dialog .fm-breadcrumbs-block:not(.long-path) .cloud-drive .right-arrow-bg {
+    padding: 0 7px 0 8px;
+    background-image: none;
+}
+.fm-dialog .fm-breadcrumbs .right-arrow-bg {
+    font-size: 13px;
+}
+.fm-dialog .fm-breadcrumbs:first-child .right-arrow-bg span {
+    display: block;
+}
+.fm-dialog .long-path .fm-breadcrumbs .right-arrow-bg span {
+    display: none;
+}
+.fm-dialog-table.grid-table tr:nth-child(odd) td {
+    background-color: rgba(255,255,255,1);
+}
+.fm-dialog-table.grid-table tr:nth-child(even) td {
+    background-color: rgba(250,250,250,1);
+}
+.fm-dialog-table.grid-table-header th:nth-child(1), .fm-dialog-table.grid-table td:nth-child(1) {
+    width: 50px;
+    padding: 0 0 0 3px;
+}
+.fm-dialog-table.grid-table-header th:nth-child(2), .fm-dialog-table.grid-table td:nth-child(2) {
+    width: 476px;
+}
+.fm-dialog-table.grid-table-header th:nth-child(3), .fm-dialog-table.grid-table td:nth-child(3) {
+    width: 114px;
+    background-image: none;
+}
+.fm-dialog-grid-scroll {
+    height: 312px !important;
+}
+.fm-dialog-grid-scroll, .fm-dialog-grid-scroll .jspPane {
+    background-image: url(../images/mega/grid-bg.svg);
+    background-position: 0 -24px;
+}
+.fm-dialog-table.grid-table tr.ui-selected td {
+    background-color: rgba(233,233,233,1);
+}
+/* End of Add From Cloud Dialog */
+
+
+/* Delete message dialog */
+.fm-dialog.delete-message {
+    width: 484px;
+    margin: -134px 0 0 -242px;
+}
+.dialog.secondary-header {
+    text-align: center;
+    padding: 16px 24px 0 24px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.message.body.dialog-wrapper {
+    border: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.02);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 24px 12px;
+    padding: 13px 15px 13px 15px;
+}
+.dialog-wrapper .message.text-block {
+    margin-right: 0;
+    font-size: 14px;
+    color: #666666;
+}
+.footer-checkbox {
+    float: left;
+    margin: -12px 0 0 0;
+}
+/* End of Delete message dialog */
+
+/* Confirm truncate dialog */
+.fm-dialog.truncate-conversation .fm-dialog-content {
+    margin-bottom: 24px;
+}
+/* End of confirm truncate dialog */
+
+/* Limited available bandwidth dialog */
+.fm-dialog.limited-bandwidth-dialog {
+    min-width: 484px;
+    margin: -196px 0 0 -242px;
+}
+.dialog-top-icon {
+    margin: 34px 0 17px 0;
+}
+.dialog.header-after-icon {
+    font-size: 20px;
+    line-height: 25px;
+    color: #666666;
+    font-family: 'source_sans_prolight';
+    padding: 15px 0 8px 0;
+}
+.dialog.p-after-icon {
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    padding: 15px 0 0 0;
+    margin: 0 0 0 0;
+}
+.dialog.p-after-icon span {
+    color: #FF333A;
+}
+.dialog.big-buttons-block {
+    font-size: 0;
+    padding: 24px 0 4px 0;
+    white-space: nowrap;
+}
+.dialog.big-buttons-block .default-big-button {
+    display: inline-block;
+    margin: 0 6px;
+}
+.fm-dialog-body .centered-checkbox {
+    padding: 0 0 10px 0;
+}
+/* End of Limited available bandwidth dialog */
+
+
+.fm-dialog.chat-rename-dialog {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.chat-rename-dialog input {
+    padding-left: 10px;
+    width: 260px;
+}
+
+.chat-rename-dialog .rename-input-bl {
+    margin-bottom: 10px;
+}

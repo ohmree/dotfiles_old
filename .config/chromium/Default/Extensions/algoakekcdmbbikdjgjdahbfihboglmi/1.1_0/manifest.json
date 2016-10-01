@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.3dtin.com/"
+      },
+      "urls": [ "http://3dtin.com/", "http://www.3dtin.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlfSIilOC30xdYiasmidlbjY/pBqbSK07UHunnAE/nyxdTyjAN0nr4Pa3y7PccTx3iMNesKgpDAZAD5EXp/TmpRyPnxMrdbDf0cvrELiYHf2dLPoxSq9ac4EZhDGUiZBxi21oRdXAKFla08iRFpU1y9Bc0dIp7HlCv93NXw6pvswIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "http://*.3dtin.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

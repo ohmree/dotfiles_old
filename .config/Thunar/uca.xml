@@ -1,0 +1,26 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1474130068500047-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set as wallpaper</name>
+	<unique-id>1474130068500154-2</unique-id>
+	<command>xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path --create -t string -s \&quot;%f\&quot;</command>
+	<description>Implementing the entire wallpaper plugin with just a bit of XML</description>
+	<upper>1</upper>
+	<lower>0</lower>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+</actions>

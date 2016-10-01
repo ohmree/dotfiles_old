@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.duckiedeck.com/play/toy-bricks?ref=cws"
+      },
+      "urls": [ "http://www.duckiedeck.com/play/toy-bricks?ref=cws" ]
+   },
+   "description": "Lego Games for Boys - Build your own house!",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtNVVmdvM+79iBxJlo2quK1zpipOa/seQMec1OiNoWzwPAqlTqUAq+Mza92mFF8u6qQ+ctYWYOkSymx5FD/r18QeR6/WPfNCtQ1c6KqhqogA7hT+aw7luTGeIBP9hKz2D7aFMI/A2omsohbC+etUXOX0bf2TlCFYyNJlEFXyBNvwIDAQAB",
+   "manifest_version": 2,
+   "name": "LEGO Bricks for Kids - Duckie Deck",
+   "permissions": [ "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
