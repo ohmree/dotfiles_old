@@ -1,0 +1,21 @@
+2016/10/13-22:16:30.145 4583 Reusing MANIFEST /home/omri/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/10/13-22:16:30.146 4583 Recovering log #1107
+2016/10/13-22:16:30.146 4583 Reusing old log /home/omri/.config/chromium/Default/Session Storage/001107.log 
+2016/10/13-23:51:52.612 11866 Level-0 table #1112: started
+2016/10/13-23:51:52.657 11866 Level-0 table #1112: 19069 bytes OK
+2016/10/13-23:51:52.691 11866 Delete type=0 #1107
+2016/10/14-00:52:51.551 11866 Compacting 1@0 + 1@1 files
+2016/10/14-00:52:51.654 11866 Generated table #1113@0: 424 keys, 17562 bytes
+2016/10/14-00:52:51.654 11866 Compacted 1@0 + 1@1 files => 17562 bytes
+2016/10/14-00:52:51.720 11866 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/14-00:52:51.720 11866 Delete type=2 #1109
+2016/10/14-00:52:51.727 11866 Delete type=2 #1112
+2016/10/14-01:26:47.708 11866 Level-0 table #1115: started
+2016/10/14-01:26:47.744 11866 Level-0 table #1115: 15491 bytes OK
+2016/10/14-01:26:47.786 11866 Delete type=0 #1111
+2016/10/14-03:11:18.865 11866 Compacting 1@0 + 1@1 files
+2016/10/14-03:11:18.994 11866 Generated table #1116@0: 518 keys, 19691 bytes
+2016/10/14-03:11:18.994 11866 Compacted 1@0 + 1@1 files => 19691 bytes
+2016/10/14-03:11:19.036 11866 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/14-03:11:19.036 11866 Delete type=2 #1115
+2016/10/14-03:11:19.036 11866 Delete type=2 #1113

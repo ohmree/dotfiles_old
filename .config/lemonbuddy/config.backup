@@ -1,269 +1,229 @@
-;=====================================================
-;
-;   To learn more about how to configure Lemonbuddy
-;   go to https://github.com/jaagr/lemonbuddy
-;
-;   The README contains alot of information
-;
-;=====================================================
-
-[settings]
-; Limit the amount of events sent to lemonbar within a set timeframe:
-; - "Allow <throttle_limit> updates within <throttle_ms> of time"
-; Default values:
-;throttle_limit = 5
-;throttle_ms = 50
-
-[bar/bottom]
-;monitor = eDP1
-bottom = true
-dock = false
-
+[bar/top]
 width = 100%
 height = 27
 
-;offset_x = 0
-;offset_y = 0
+background = #222222
+foreground = #ccfafafa
+linecolor = #666
 
-locale = en_US.UTF-8
-
-background = #80002b36
-foreground = #839496
-
-spacing = 3
-;padding_left = 1
-padding_right = 4
-module_margin_left = 0
-module_margin_right = 6
-
-font-0 = SanFranciscoDisplay-Regular:size=13;0
-font-1 = Icons:size=14:style=iconic;-1
-font-2 = FontAwesome:size=14;-1
-font-3 = Unifont
-
-modules-left = i3
-modules-right = cpu memory 
-
-[bar/top]
-;monitor = eDP1
-bottom = false
-dock = false
-
-width = 100%
-height = 25
-
-;offset_x = 0
-;offset_y = 0
-
-background = #80002b36
-foreground = #839496
-;linecolor = #839496
+border-bottom = 2
+border-bottom-color = #333333
 
 spacing = 1
-lineheight = 1
+lineheight = 50
+padding-left = 2
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
 
-;separator = |
-
-locale = en_US.UTF-8
-
-padding_left = 4
-padding_right = 1
-module_margin_left = 0
-module_margin_right = 0
-
-font-0 = SanFranciscoDisplay-Regular:size=13;0
-font-1 = MaterialIcons:size=14;-2
-font-2 = Termsynu:size=8;-1
-font-3 = FontAwesome:size=10;0
+font-0 = envypn:style=Regular:size=15;1
+font-1 = Siji:pixelsize=10;0
+font-2 = Termsyn:size=13;0
+font-3 = Unifont:style=Medium:size=13;1
 
 modules-left = mpd
-modules-right = date volume
+modules-center = i3
+modules-right = volume memory cpu date 
+
+
+[bar/bottom]
+bottom = true
+width = 100%
+height = ${bar/top.height}
+background = ${bar/top.background}
+foreground = ${bar/top.foreground}
+linecolor = ${bar/top.linecolor}
+
+border-top = 2
+border-top-color = #333333
+
+spacing = ${bar/top.spacing}
+lineheight = ${bar/top.lineheight}
+padding-right = ${bar/top.padding-right}
+module-margin-left = ${bar/top.module-margin-left}
+module-margin-right = ${bar/top.module-margin-right}
+
+font-0 = ${bar/top.font-0}
+font-1 = ${bar/top.font-1}
+
+modules-left = i3
+modules-right = pkgupdates-available
+
+
+[bar/external-bottom]
+monitor = HDMI-1
+bottom = true
+width = 100%
+height = ${bar/top.height}
+
+background = ${bar/top.background}
+foreground = ${bar/top.foreground}
+linecolor = ${bar/top.linecolor}
+
+border-top = 2
+border-top-color = #333333
+
+spacing = ${bar/top.spacing}
+lineheight = ${bar/top.lineheight}
+padding-right = ${bar/top.padding-right}
+module-margin-left = ${bar/top.module-margin-left}
+module-margin-right = ${bar/top.module-margin-right}
+
+font-0 = ${bar/top.font-0}
+font-1 = ${bar/top.font-1}
+
+modules-left = i3
+modules-right = date
+
+
+[module/i3]
+type = internal/i3
+format = <label-state>
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-default = 
+
+label-focused = %icon%
+label-focused-background = #3f3f3f
+label-focused-padding = 2
+
+label-unfocused = %icon%
+label-unfocused-padding = 2
+
+label-urgent = %icon%
+label-urgent-background = #bd2c40
+label-urgent-padding = 2
+
+label-visible = %icon%
+label-visible-foreground = #444
+label-visible-padding = 2
+
 
 [module/cpu]
 type = internal/cpu
-interval = 0.5
-format = <label> <ramp-load_per_core>
-label = CPU
+interval = 2
+label = %{F#666}%{F#ccfafafa} %percentage%
 
-ramp-load_per_core-0 = ▁
-ramp-load_per_core-0-font = 2
-ramp-load_per_core-0-foreground = #aaff77
-ramp-load_per_core-1 = ▂
-ramp-load_per_core-1-font = 2
-ramp-load_per_core-1-foreground = #aaff77
-ramp-load_per_core-2 = ▃
-ramp-load_per_core-2-font = 2
-ramp-load_per_core-2-foreground = #aaff77
-ramp-load_per_core-3 = ▄
-ramp-load_per_core-3-font = 2
-ramp-load_per_core-3-foreground = #aaff77
-ramp-load_per_core-4 = ▅
-ramp-load_per_core-4-font = 2
-ramp-load_per_core-4-foreground = #fba922
-ramp-load_per_core-5 = ▆
-ramp-load_per_core-5-font = 2
-ramp-load_per_core-5-foreground = #fba922
-ramp-load_per_core-6 = ▇
-ramp-load_per_core-6-font = 2
-ramp-load_per_core-6-foreground = #ff5555
-ramp-load_per_core-7 = █
-ramp-load_per_core-7-font = 2
-ramp-load_per_core-7-foreground = #ff5555
 
 [module/memory]
 type = internal/memory
-format = <label> <bar-used>
-label = RAM
+interval = 2
+label = %{F#666}%{F#ccfafafa} %gb_used%/%gb_total%
 
-bar-used-width = 30
-bar-used-foreground-0 = #aaff77
-bar-used-foreground-1 = #aaff77
-bar-used-foreground-2 = #fba922
-bar-used-foreground-3 = #ff5555
-bar-used-indicator = |
-bar-used-indicator-font = 6
-bar-used-indicator-foreground = #ff
-bar-used-fill = ─
-bar-used-fill-font = 6
-bar-used-empty = ─
-bar-used-empty-font = 6
-bar-used-empty-foreground = #444444
+
+[module/wifi]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+label-connected = %essid% %{F#66}%local-ip%
+label-disconnected = %{F#666}%{F#ccfafafa} not connected
+label-disconnected-foreground = #66
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #666
+
 
 [module/date]
 type = internal/date
-date =    %%{F#99}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M%%{F-}
-date_detailed = %%{F#fff}%A, %d %B %Y  %%{F#fff}%H:%M%%{F#666}:%%{F#fba922}%S%%{F-}
+date = %%{T3}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#fba922}%%{F#ccfafafa} %H:%M%%{T-}
+interval = 5
+
 
 [module/volume]
 type = internal/volume
-;speaker_mixer = Speaker
-;headphone_mixer = Headphone
-;headphone_control_numid = 9
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+;headphone-control-numid = 9
 
 format-volume = <ramp-volume> <label-volume>
-label-muted =   muted
-label-muted-foreground = #66
+label-volume = %percentage%
+label-volume-foreground = ${BAR.foreground}
 
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-foreground = #666
+
+label-muted = %{F#666}%{F#ccfafafa} sound muted
+label-muted-foreground = #99
+
 
 [module/mpd]
 type = internal/mpd
 
-host = 127.0.0.1
-port = 6600
-  ; Available tags:
-  ;   <label-song> (default)
-  ;   <label-time>
-  ;   <bar-progress>
-  ;   <toggle> - gets replaced with <icon-(pause|play)>
-  ;   <icon-random>
-  ;   <icon-repeat>
-  ;   <icon-repeatone>
-  ;   <icon-prev>
-  ;   <icon-stop>
-  ;   <icon-play>
-  ;   <icon-pause>
-  ;   <icon-next>
-  ;   <icon-seekb>
-  ;   <icon-seekf>
-  format-online = <icon-prev>  <icon-stop>  <toggle>  <icon-next>    <icon-repeat>  <icon-random>    <bar-progress>    <label-song>  <label-time>
+format-online = <label-song>  <label-time>  <bar-progress>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
+format-offline = <label-offline>
+format-offline-foreground = #66
+label-offline = mpd is off
 
-  ; Available tags:
-  ;   <label-offline>
-  ;format-offline = <label-offline>
+icon-prev = 
+icon-seekb = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+icon-seekf = 
 
-  ; Available tokens:
-  ;   %artist%
-  ;   %album%
-  ;   %title%
-  ; Default: %artist% - %title%
-  label-song = 𝄞 %artist% - %title%
+icon-random = 
+icon-repeat = 
 
-  ; Available tokens:
-  ;   %elapsed%
-  ;   %total%
-  ; Default: %elapsed% / %total%
-  ;label-time = %elapsed% / %total%
+toggle-on-foreground = #fba922
+toggle-off-foreground = #66
 
-  ; Available tokens:
-  ;   None
-  label-offline = 🎜 mpd is offline
+bar-progress-width = 15
+bar-progress-indicator = 
+bar-progress-indicator-foreground = #bb
+bar-progress-fill = ─
+bar-progress-fill-foreground = #bb
+bar-progress-fill-font = 3
+bar-progress-empty = ─
+bar-progress-empty-foreground = #44
+bar-progress-empty-font = 3
 
-  icon-play = 
-  icon-pause = 
-  icon-stop = 
-  icon-prev = 
-  icon-next = 
-  icon-seekb = 
-  icon-seekf = 
-  icon-random = 
-  icon-repeat = 
-  ;icon-repeatone = 1
+label-time-foreground = #55
 
-  ; Used to display the state of random/repeat/repeatone
-  toggle_on-foreground = #ff
-  toggle_off-foreground = #55
-
-  bar-progress-width = 25
-  bar-progress-indicator = |
-  bar-progress-indicator-foreground = #859900
-  bar-progress-fill = ─
-  bar-progress-fill-foreground = #839496
-  bar-progress-empty = ─	
-  bar-progress-empty-foreground = #839496
-
-[module/i3]
-type = internal/i3
-; workspace_icon-[0-9]+ = label;icon
-workspace_icon-0 = 1;
-workspace_icon-1 = 2;
-workspace_icon-2 = 3;
-workspace_icon-3 = 4;
-workspace_icon-4 = 5;♞
-workspace_icon-default = ♟
-
-; Available tags:
-;   <label-state> (default) - gets replaced with <label-(focused|unfocused|visible|urgent)>
-;format = <label-state>
+[module/pkgupdates-available]
+type = custom/script
 
 ; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
-label-focused = %icon%
-label-focused-foreground = #002b36
-label-focused-background = #80b58900
-label-focused-padding = 2
+;   %counter%
+; The "exec" command will be executed using "/usr/bin/env sh -c [command]"
+exec = count=$(sudo pacman -Syup --noprogressbar 2>/dev/null | sed '/Starting full/,~1!d;/Starting full/d' | wc -l); [ $count -gt 0 ] && echo "Updates available: $count"
+;exec = count=$(echo n | sudo xbps-install -Su >/dev/null 2>&1; sudo xbps-install -Sun | wc -l); [ $count -gt 0 ] && echo "Updates available: $count"
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
-label-unfocused = %icon%
-label-unfocused-padding = 2
+; Should we keep listening for output from the command?
+;tail = false
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
-label-visible = %icon%
-label-visible-underline = #555555
-label-visible-padding = 2
+; Seconds to sleep between updates
+; Will be ignored if `tail = true`
+; Default: 1
+interval = 90
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
-label-urgent = %icon%
-label-urgent-foreground = #000000
-label-urgent-background = #bd2c40
-label-urgent-padding = 2
+; Limit the length of the output string
+; Default: 0
+maxlen = 20
+
+; Add trailing ellipsis when truncating the string
+; Default: true
+ellipsis = true
+
+
+[module/xtitle]
+type = custom/script
+exec = xtitle -s
+tail = true
+maxlen = 25
+
 
 ; vim:ft=dosini

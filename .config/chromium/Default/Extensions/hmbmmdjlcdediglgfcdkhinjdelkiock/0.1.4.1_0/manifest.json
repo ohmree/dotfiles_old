@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "assets/js/font.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Font Rendering Enhancer for Chrome. Darker and clearer text on the pages (http and https).",
+   "icons": {
+      "32": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjagyRVMZep6cQ8+5EPjvLKO7sfuwuCrkaEPNc8anp/c7GeDJUy1x74nT6G7QdCI/zWOVWvqo1XIKgUOTdRFquwcoIaUsxTqUA2uc+pyeQjNNd8WmDYGyAP7Z771MokOYL/iYI052HDHX0Ot/2qlhJjriKMJMiAbUm93czt+EsA848JD3p6P3v3tz2SdigCtY/xG4/bYHJ62GKioEWE3u0mJekKQOOz2/kJqXE0AM5DX4znZpjf7tiTFWJGHyOVrvZn3IHMBp2dknhdzym7KWAmfbLrnMljUG9UfWm1gIePhsulOH+tEuA9kGJE7eyLxReXBuPUSK6TKHtAmK7W+E7wIDAQAB",
+   "manifest_version": 2,
+   "name": "Font Rendering Enhancer",
+   "options_page": "options.html",
+   "permissions": [ "*://*/*", "storage" ],
+   "short_name": "FRE",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4.1"
+}

@@ -12,10 +12,14 @@ shell yaourt materialicons
 search confi
 search .config
 search .emacs
-
 open_with 
 open_with vim
 help tabs
 touch .gitignore
 open_with nvim
 delete
+
+search ncnpcp
+search .ncmp
+touch config
+set preview_images=true

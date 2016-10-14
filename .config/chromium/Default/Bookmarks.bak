@@ -1,0 +1,831 @@
+{
+   "checksum": "f2b2359ce4c0b1dc5897c8e3c5e402ab",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13088522535855475",
+            "id": "12",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_0599d67b3d2642fa",
+               "stars.version": "sync.server.Chrome42"
+            },
+            "name": "✄ Uneddit",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript:void((function(){var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src', '//uneddit.com/phase_one');document.body.appendChild(e)})());"
+         }, {
+            "date_added": "12989407300156250",
+            "id": "13",
+            "meta_info": {
+               "stars.id": "ssc_89b74f4c66803d1f",
+               "stars.version": "sync.server.Chrome42"
+            },
+            "name": "Facebook",
+            "sync_transaction_version": "5",
+            "type": "url",
+            "url": "http://www.facebook.com/"
+         }, {
+            "date_added": "13119485773468051",
+            "id": "14",
+            "name": "XJZ Survey Remover",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript:(function(){\"[url]http://survey-remover.com/[/url]\";var rs=function(){var q=function(min,max){return Math.floor(Math.random()*(max-min+1))+min};var n=[];for(var r=0;r\u003Cq(9,19);r++){n.push(String.fromCharCode(q(97,122)))}return n.join(\"\")};var xc=[];var timers=[\"Timeout\",\"Interval\"];for(var i=0;i\u003Ctimers.length;i++){(function(){var x=window[\"set\"+timers[i]](\"null\",1);eval(\"delete clear\"+timers[i]);eval(\"delete set\"+timers[i]);if(window[\"clear\"+timers[i]]==undefined){if(typeof ar==\"undefined\"){var ar=document.createElement(\"iframe\");ar.style.display=\"none\";document.body.appendChild(ar)}window[\"clear\"+timers[i]]=ar.contentWindow[\"clear\"+timers[i]];window[\"set\"+timers[i]]=ar.contentWindow[\"set\"+timers[i]]}for(var j=x;j>0&&x-j\u003C99999;j--){window[\"clear\"+timers[i]](j)}})();(function(){var op=rs();xc.push(op);window[op]=window[\"set\"+timers[i]];window[\"set\"+timers[i]]=function(){};for(var j in window){try{if(typeof window[j]==\"function\"){if(xc.indexOf(j)==-1){if((window[j]+\"\").indexOf(\"function set\"+timers[i]+\"() {\")!=-1){window[j]=function(){}}\"}\"}}}catch(e){}}})()}window[xc[0]](function(){window[\"set\"+timers[0]]=window[xc[0]];window[\"set\"+timers[1]]=window[xc[1]];var xjz={version:\"3.0\",domain:\"http://survey-remover.com/\",id:\"B4f48d93869058\"};var scTO=window.setTimeout(function(){window.alert(\"It appears that the server could not be reached. Please try to use the bookmarklet again later!\\n\"+xjz.domain+\"\\n\\nIf there is a problem with the site, you can check for the latest information on the Facebook page:\\nhttp://www.facebook.com/XJZ.Survey.Remover\")},10000);var a=document.createElement(\"script\");a.type=\"text/javascript\";a.src=xjz.domain.replace(\"//\",\"//public.\")+\"remover/?injection=\"+xjz.version;a.onload=function(){window.clearTimeout(scTO)};window.document.getElementsByTagName(\"head\")[0].appendChild(a)},110)})();"
+         }, {
+            "date_added": "13016199306381724",
+            "id": "15",
+            "name": "Far Cry® 3",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://farcryoutpost.ubi.com/"
+         }, {
+            "date_added": "13019995159813250",
+            "id": "16",
+            "meta_info": {
+               "stars.id": "ssc_9fd504fd15198a77",
+               "stars.isSynced": "true"
+            },
+            "name": "FOOK - New Vegas at Fallout New Vegas Nexus - New Vegas mods and community",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://newvegas.nexusmods.com/mods/34684/?tab=4&navtag=%2Fajax%2Fcomments%2F%3Fmod_id%3D34684%26page%3D1%26sort%3DDESC%26pid%3D0%26thread_id%3D248254&pUp=1"
+         }, {
+            "date_added": "13034809834492086",
+            "id": "17",
+            "name": "PwnYouTube",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript:(function(w,d){var jloaded=false,jsrc='download-video.js',fsrc='http://deturl.com/iframelet.html?js='+encodeURIComponent(jsrc),l=window.location.href;function msg2js(e){if(e.origin=='http://deturl.com'){jloaded=true;var js=document.createElement('script');js.type='text/javascript';js.textContent=e.data;document.body.appendChild(js);window.removeEventListener('message',arguments.callee)}}if(w.addEventListener)w.addEventListener('message',msg2js,false);else w.attachEvent('onmessage',msg2js);var f=d.createElement('iframe');f.src=fsrc;f.style.cssText='display:none;';d.body.appendChild(f);if(l.match(/^https:/i)){window.setTimeout(function(){if(!jloaded){if(confirm('The bookmarklet can not be run on HTTPS pages in this browser.\\n\\nGo to the regular HTTP version of this page?')){window.location.href=l.replace(/^https:/i,'http:')}else{window.location.href='http://deturl.com/?bt&url='+encodeURIComponent(l)}}},5000)}})(window,document);"
+         }, {
+            "date_added": "13024501537062781",
+            "id": "18",
+            "name": "CookieCheat",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript: (function () {   var script = document.createElement('script');   script.setAttribute('src', 'http://nofake.fr/cookie/last');   document.body.appendChild(script);   }());"
+         }, {
+            "date_added": "13055966401529806",
+            "id": "19",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_eeb71562094d87ae",
+               "stars.version": "sync.server.Chrome36"
+            },
+            "name": "תוספים",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://extensions/"
+         }, {
+            "date_added": "13056041344565161",
+            "id": "20",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_ef670a0b4c942964",
+               "stars.version": "sync.server.Chrome36"
+            },
+            "name": "XJZ Survey Remover",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript:(function(){\"[url]http://survey-remover.com/[/url]\";var rs=function(){var q=function(min,max){return Math.floor(Math.random()*(max-min+1))+min};var n=[];for(var r=0;r\u003Cq(9,19);r++){n.push(String.fromCharCode(q(97,122)))}return n.join(\"\")};var xc=[];var timers=[\"Timeout\",\"Interval\"];for(var i=0;i\u003Ctimers.length;i++){(function(){var x=window[\"set\"+timers[i]](\"null\",1);eval(\"delete clear\"+timers[i]);eval(\"delete set\"+timers[i]);if(window[\"clear\"+timers[i]]==undefined){if(typeof ar==\"undefined\"){var ar=document.createElement(\"iframe\");ar.style.display=\"none\";document.body.appendChild(ar)}window[\"clear\"+timers[i]]=ar.contentWindow[\"clear\"+timers[i]];window[\"set\"+timers[i]]=ar.contentWindow[\"set\"+timers[i]]}for(var j=x;j>0&&x-j\u003C99999;j--){window[\"clear\"+timers[i]](j)}})();(function(){var op=rs();xc.push(op);window[op]=window[\"set\"+timers[i]];window[\"set\"+timers[i]]=function(){};for(var j in window){try{if(typeof window[j]==\"function\"){if(xc.indexOf(j)==-1){if((window[j]+\"\").indexOf(\"function set\"+timers[i]+\"() {\")!=-1){window[j]=function(){}}\"}\"}}}catch(e){}}})()}window[xc[0]](function(){window[\"set\"+timers[0]]=window[xc[0]];window[\"set\"+timers[1]]=window[xc[1]];var xjz={version:\"3.1\",domain:\"http://survey-remover.com/\",key:\"B5422d08c13940\"};var scTO=window.setTimeout(function(){window.alert(\"It appears that the server could not be reached. Please try to use the bookmarklet again later!\\n\"+xjz.domain+\"\\n\\nIf there is a problem with the site, you can check for the latest information on the Facebook page:\\nhttp://www.facebook.com/XJZ.Survey.Remover\")},10000);var a=document.createElement(\"script\");a.type=\"text/javascript\";a.src=xjz.domain.replace(\"//\",\"//public.\")+\"remover/version/latest/?injection=\"+xjz.version+\"&key=\"+xjz.key;a.onload=function(){window.clearTimeout(scTO)};window.document.getElementsByTagName(\"head\")[0].appendChild(a)},110)})();"
+         }, {
+            "date_added": "13068061732199000",
+            "id": "21",
+            "meta_info": {
+               "stars.id": "ssc_7700ae5872fd253e",
+               "stars.imageData": "Cg5wZFhPM1ZfeDd6SGJ5TRLsAQrjAWh0dHBzOi8vZmJjZG4tcHJvZmlsZS1hLmFrYW1haWhkLm5ldC9ocHJvZmlsZS1hay1wcm4yL3YvdDEuMC0xL2MxMTMuMzMuNDE0LjQxNC9zMjAweDIwMC81MjgyMjhfNTM5MTk0ODkyNzg5MDE3XzEwMDgwODQzMDRfbi5qcGc/b2g9ZDBlMGM0Y2VjM2E1NzQxODA2MzA1ZjRhYTkyOWJmY2Mmb2U9NTU4QkQzRTcmX19nZGFfXz0xNDM1MDk5Mzg4X2E0ODEzYWNmYzMyMGFkMTk0NjZhZjE1N2ZjMTVkZjFlEKABGKABGmMKW2h0dHA6Ly90MS5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjU2NDTGF5MmVCalBvVkRwdFBFUmRhZnV2VnBzb19pSXNvczBLTHMwZm5nRTFBejk4WXcQoAEYoAEiHwgBEKABGKABIOYeQgYSBIACAP9KCmltYWdlL2pwZWc=",
+               "stars.isSynced": "true",
+               "stars.pageData": "EmZHZXQgRnJlZSBLZXlzIEZvciBFU0VUIFByb2R1Y3RzCkVTRVQgTk9EMzIgQW50aXZpcnVzICwgRVNFVCBTbWFydCBTZWN1cml0eSAsIEVTRVQgTW9iaWxlIFNlY3VyaXR5ICwuLi4iDm53NFZMN0dhT1o0Q0pN",
+               "stars.type": "2"
+            },
+            "name": "(3) ‪Eset Nod32 KEYS New 2013 Free‬",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.facebook.com/EsetKeyForFreeNow"
+         }, {
+            "date_added": "13067115203561399",
+            "id": "22",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_8f9856008098ef54",
+               "stars.version": "sync.server.Chrome36"
+            },
+            "name": "Save Video Me",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "javascript:(function(){appPath%20=%20'http://savevideo.me/';function%20l(u,i,t,b){var%20d=document;if(!d.getElementById(i)){var%20s=d.createElement('script');s.src=u;s.id=i;d.body.appendChild(s)}s=setInterval(function(){u=0;try{u=t.call()}catch(i){}if(u){clearInterval(s);b.call()}},200)}l('http://savevideo.me/js/bookmarklet.js','SV',function(){return!!(typeof%20bookmarklet=='function')},%20function(){bookmarklet()})})()"
+         }, {
+            "date_added": "13073687970368000",
+            "id": "23",
+            "meta_info": {
+               "stars.id": "ssc_1cde1ad55c0c416c",
+               "stars.imageData": "Cg5sWW1VWWdSc3F1dXZiTRJvCmdodHRwOi8vMS5icC5ibG9nc3BvdC5jb20vLVhUeGFoeUpEMXdnL1UxekNpTDNzcnZJL0FBQUFBQUFBQlJNLzBJQlBHOVBNQmhZL3M3Mi1jL0JveG9wdXMtQWx0ZXJuYXRpdmUuanBnEMcBGP0BGmEKW2h0dHA6Ly90MS5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjVGd6X1BhR2luNE1OaGoycG5SYWtyZFR6VEk0S1pPMV8yWktmbUdsV08tV1J6QmJrTWgQRRhFIh0IARBFGEUgtBBCBhIEmQIA/0oKaW1hZ2UvanBlZw==",
+               "stars.pageData": "Ig4taVN6WEp3XzN6QUtkTQ==",
+               "stars.type": "2",
+               "stars.version": "sync.server.Chrome44"
+            },
+            "name": "Zbigz Premium Account 2015 Free - Download Torrents with IDM | By ATH Team | AllTypeHacks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.alltypehacks.net/2014/08/zbigz-premium-account-2014-free.html"
+         }, {
+            "date_added": "13075999615137489",
+            "id": "24",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_e4ebe5dc024d8315",
+               "stars.version": "sync.server.Chrome36"
+            },
+            "name": "repo.cellcom.co.il/MediaServer/PDF/netvision_netbox_manual.pdf",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://repo.cellcom.co.il/MediaServer/PDF/netvision_netbox_manual.pdf"
+         }, {
+            "date_added": "13082024534371161",
+            "id": "25",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_2ca9f451e7aa3dfa",
+               "stars.version": "sync.server.Chrome44"
+            },
+            "name": "wtpoopdani - Twitch",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.twitch.tv/wtpoopdani"
+         }, {
+            "date_added": "13084219511948496",
+            "id": "26",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_d8f555d7e8d578b5",
+               "stars.version": "sync.server.Chrome42"
+            },
+            "name": "Suggested Sites",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://ieonline.microsoft.com/#ieslice"
+         }, {
+            "date_added": "13086808980811796",
+            "id": "27",
+            "meta_info": {
+               "stars.id": "ssc_31c670c169bbf099",
+               "stars.version": "sync.server.Chrome42"
+            },
+            "name": "‪K-Shoot MANIA (International)‬",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.facebook.com/groups/internationalksm/"
+         }, {
+            "date_added": "13094285732229889",
+            "id": "28",
+            "name": "Haruka_Kawaii (@otaku_nya_kawaii) • Instagram photos and videos",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.instagram.com/p/nlSLjEhGeP/?taken-by=otaku_nya_kawaii"
+         }, {
+            "date_added": "13093407412648851",
+            "id": "29",
+            "name": "מגשימים",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://magshimim.edu20.org/"
+         }, {
+            "date_added": "13093407420758608",
+            "id": "30",
+            "name": "Cyber.org.il",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://cyber.org.il/"
+         }, {
+            "date_added": "13095373209238944",
+            "id": "31",
+            "name": "Kyouran Hey Kids!! - THE ORAL CIGARETTES (Noragami | ノラガミ ARAGOTO OP) 狂乱 Hey Kids!! Lyrics, 歌詞 | Lyrical Nonsense",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.lyrical-nonsense.com/lyrics/the-oral-cigarettes/kyouran-hey-kids/#page=English-tv"
+         }, {
+            "date_added": "13088423717000000",
+            "id": "32",
+            "name": "Getting Started",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "date_added": "13096904021000000",
+            "id": "33",
+            "name": "edu",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://magshimim.edu20.org/"
+         }, {
+            "date_added": "13096904021000000",
+            "id": "34",
+            "name": "cyber.org.il",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://cyber.org.il/"
+         }, {
+            "date_added": "13096904021000000",
+            "id": "35",
+            "name": "Getting Started",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13088423717000000",
+                  "id": "103",
+                  "name": "Help and Tutorials",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/help/"
+               }, {
+                  "date_added": "13088423717000000",
+                  "id": "104",
+                  "name": "Customize Firefox",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13088423717000000",
+                  "id": "105",
+                  "name": "Get Involved",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13088423717000000",
+                  "id": "106",
+                  "name": "About Us",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "107",
+                  "name": "עזרה והדרכה",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/he/firefox/help/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "108",
+                  "name": "התאמה אישית של Firefox",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/he/firefox/customize/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "109",
+                  "name": "היה מעורב",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/he/contribute/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "110",
+                  "name": "אודותינו",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/he/about/"
+               } ],
+               "date_added": "13119485773676987",
+               "date_modified": "13119485773676987",
+               "id": "37",
+               "name": "Mozilla Firefox",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096904021000000",
+                  "id": "98",
+                  "name": "Ubuntu",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.ubuntu.com/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "99",
+                  "name": "Ubuntu Wiki (community-edited website)",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://wiki.ubuntu.com/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "100",
+                  "name": "Make a Support Request to the Ubuntu Community",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://answers.launchpad.net/ubuntu/+addquestion"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "101",
+                  "name": "Debian (Ubuntu is based on Debian)",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "102",
+                  "name": "Ubuntu One - The personal cloud that brings your digital life together",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://one.ubuntu.com/"
+               } ],
+               "date_added": "13119485773677001",
+               "date_modified": "13119485773677001",
+               "id": "38",
+               "name": "Ubuntu and Free Software links",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "date_added": "13098071084000000",
+               "id": "39",
+               "name": "worldregionsproject - Cultural Characteristics of Middle East",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://worldregionsproject.wikispaces.com/Cultural+Characteristics+of+Middle+East"
+            }, {
+               "date_added": "13099327262000000",
+               "id": "40",
+               "name": "GitHub - RichiH/vcsh: config manager based on Git",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://github.com/RichiH/vcsh"
+            }, {
+               "date_added": "13099327263000000",
+               "id": "41",
+               "name": "CS Syd - Super User Spark: Getting started",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://cs-syd.eu/posts/2015-09-27-super-user-spark-getting-started"
+            }, {
+               "date_added": "13099327263000000",
+               "id": "42",
+               "name": "GitHub - jfim/spacemacs: Emacs advanced Kit focused on Evil: The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://github.com/jfim/spacemacs"
+            }, {
+               "date_added": "13099327263000000",
+               "id": "43",
+               "name": "Configuring Spacemacs: A Tutorial - Tristan Hume",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://thume.ca/howto/2015/03/07/configuring-spacemacs-a-tutorial/"
+            }, {
+               "date_added": "13099435649000000",
+               "id": "44",
+               "name": "(1) Star Strider - תקוללי המורה לספרות והיומני קריאה שלך",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.facebook.com/AppleIshOnDrugs/posts/1529575397339424?comment_id=1529601807336783&reply_comment_id=1529621720668125&notif_t=feed_comment_reply"
+            }, {
+               "date_added": "13103340949000000",
+               "id": "45",
+               "name": "DuckDuckGo",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://duckduckgo.com/"
+            }, {
+               "children": [ {
+                  "date_added": "13096904021000000",
+                  "id": "47",
+                  "name": "Releases | Revolutionary Games Studio",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://revolutionarygamesstudio.com/releases/"
+               }, {
+                  "date_added": "13096904021000000",
+                  "id": "48",
+                  "name": "מגשימים",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://magshimim.edu20.org/home_news"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "49",
+                  "name": "Vim as a Python IDE – Unlogic",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/"
+               }, {
+                  "date_added": "13099327262000000",
+                  "id": "50",
+                  "name": "YouCompleteMe by Valloric",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://valloric.github.io/YouCompleteMe/#intro"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "51",
+                  "name": "Quick start with PyCharm",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.jetbrains.com/pycharm/help/quick-start-guide.html"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "52",
+                  "name": "GitHub - klen/python-mode: Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/klen/python-mode"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "53",
+                  "name": "GitHub - davidhalter/jedi: Awesome autocompletion and static analysis library for python.",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/davidhalter/jedi"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "54",
+                  "name": "GitHub - lunixbochs/actualvim: Sublime Text 3 input mode powered by Vim",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/lunixbochs/actualvim"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "55",
+                  "name": "BlackArch Linux | Penetration Testing Distribution",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.blackarch.org/downloads.html#install-repo"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "56",
+                  "name": "Arch-Anywhere",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://arch-anywhere.org/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "57",
+                  "name": "\"How to Succeed with Linux\"",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://forums.justlinux.com/showthread.php?153396-quot-How-to-Succeed-with-Linux-quot"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "58",
+                  "name": "VIM and Python - a match made in heaven - Real Python",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "59",
+                  "name": "Vim plugins and .vimrc settings we love",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://layer0.authentise.com/vim-plugins-and-vimrc-settings-we-love.html"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "60",
+                  "name": "GitHub - tpope/vim-surround: surround.vim: quoting/parenthesizing made simple",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/tpope/vim-surround"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "61",
+                  "name": "(11) Why should a Vim user switch to Emacs as their primary text editor? - Quora",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.quora.com/Why-should-a-Vim-user-switch-to-Emacs-as-their-primary-text-editor?share=1"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "62",
+                  "name": "Vim Mode With Status Widget - Linux ZSH - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=EIp6TSC8SOQ"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "63",
+                  "name": "GitHub - milkbikis/powerline-shell: A beautiful and useful prompt for your shell",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/milkbikis/powerline-shell"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "64",
+                  "name": "w3m-img -- View Images in the Console - Linux CLI - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=R2bMUtCOGko"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "65",
+                  "name": "Magit! A Git Porcelain inside Emacs",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://magit.vc/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "66",
+                  "name": "Efficient wiki editing with w3m and vim | Control.Monad.Writer",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://donsbot.wordpress.com/2006/09/20/efficient-wiki-editing-with-w3m-and-vim/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "67",
+                  "name": "Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=JWD1Fpdd4Pc"
+               }, {
+                  "date_added": "13099327262000000",
+                  "id": "68",
+                  "name": "GitHub - cofi/evil-numbers: Increment and decrement numbers in Emacs",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/cofi/evil-numbers"
+               }, {
+                  "date_added": "13099327262000000",
+                  "id": "69",
+                  "name": "Spacemacs: Emacs advanced Kit focused on Evil",
+                  "sync_transaction_version": "4",
+                  "type": "url",
+                  "url": "http://spacemacs.org/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "70",
+                  "name": "Quick start",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://spacemacs.org/doc/QUICK_START.html"
+               }, {
+                  "date_added": "13099327262000000",
+                  "id": "71",
+                  "name": "I want to learn Emacs with some sort of Vim implementation. Should I learn Emacs first then add Evil on top? Or start learning straight with Evil installed? : emacs",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/emacs/comments/3uavev/i_want_to_learn_emacs_with_some_sort_of_vim/"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "72",
+                  "name": "Spacemacs ABC (1) - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=ZFV5EqpZ6_s&list=PLrJ2YN5y27KLhd3yNs2dR8_inqtEiEweE"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "73",
+                  "name": "The Editor of a Lifetime - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=VADudzQGvU8"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "74",
+                  "name": "When Free Software Isn't Better - Benjamin Mako Hill - LibrePlanet 2013 - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=Er1pM9suxvE"
+               }, {
+                  "date_added": "13099327263000000",
+                  "id": "75",
+                  "name": "Linus Torvalds was approached by NSA for backdoor in Linux - Nils Torvalds (father of Linus) - YouTube",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=wwRYyWn7BEo"
+               }, {
+                  "date_added": "13099329140000000",
+                  "id": "76",
+                  "name": "GitHub does dotfiles - dotfiles.github.io",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://dotfiles.github.io/"
+               }, {
+                  "date_added": "13099614547000000",
+                  "id": "77",
+                  "name": "Command Line Power User Video Series - omrisim@gmail.com - Gmail",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://mail.google.com/mail/u/0/#inbox/152bb3be4425403b"
+               }, {
+                  "date_added": "13099614549000000",
+                  "id": "78",
+                  "name": "steenhulthin/LOLCODE_NPP: ITZ CUZTM DEFN LANGAUGE FRO NOETPAD++",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/steenhulthin/LOLCODE_NPP"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "79",
+                  "name": "[ROM][KK/LP][UNOFFICIAL] [SlimRoms] Builders… | SlimRoms",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://forum.xda-developers.com/slimroms/general/rom-builders-collective-t2861778"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "80",
+                  "name": "GitHub - altercation/solarized: precision color scheme for multiple applications (terminal, vim, etc.) with both dark/light modes",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/altercation/solarized"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "81",
+                  "name": "AUR helpers - ArchWiki",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://wiki.archlinux.org/index.php/AUR_helpers"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "82",
+                  "name": "How I use Vim, transferring to Emacs (Spacemacs) from Vim [help] : emacs",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/emacs/comments/35eoq3/how_i_use_vim_transferring_to_emacs_spacemacs"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "83",
+                  "name": "GitHub - zsh-users/antigen: A plugin manager for zsh, inspired by oh-my-zsh and vundle.",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/zsh-users/antigen"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "84",
+                  "name": "EmacsWiki: tmux for collaborative editing",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.emacswiki.org/emacs/tmux_for_collaborative_editing"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "85",
+                  "name": "Emacs and Tmux - PerlStalker’s SysAdmin Notes",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://perlstalker.vuser.org/blog/2012/10/16/emacsclient-and-tmux/"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "86",
+                  "name": "Oh-my-zsh is the Disease and Antigen is the Vaccine - Josh Davis",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "87",
+                  "name": "Spacemacs theme gallery",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://themegallery.robdor.com/"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "88",
+                  "name": "Themes Megapack layer",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://spacemacs.org/layers/themes-megapack/README.html"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "89",
+                  "name": "EXWM + Spacemacs = Spacemacs OS - Emacs & Emacsist",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://emacsist.com/10473"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "90",
+                  "name": "Spacemacs - First Impressions From an Emacs Driven Developer | jr0cket",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://jr0cket.co.uk/2015/08/spacemacs-first-impressions-from-an-emacs-driven-developer.html"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "91",
+                  "name": "Add Emacs Window Manager (EXWM) Layer AKA SpacemacsOS by CestDiego · Pull Request #3321 · syl20bnr/spacemacs · GitHub",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/syl20bnr/spacemacs/pull/3321"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "92",
+                  "name": "GitHub - syl20bnr/spacemacs: A community-driven Emacs distribution - The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/syl20bnr/spacemacs#linux-distros"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "93",
+                  "name": "Spacemacs: Emacs advanced Kit focused on Evil",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://spacemacs.org/#"
+               }, {
+                  "date_added": "13099938381000000",
+                  "id": "94",
+                  "name": "Migrating from Vim",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://spacemacs.org/doc/VIMUSERS.html"
+               }, {
+                  "date_added": "13102807529000000",
+                  "id": "95",
+                  "name": "Firefox / Vimperator ( Vi/Vim ) Keybindings / Shortcuts / Extensions",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.calmar.ws/firefox/"
+               }, {
+                  "date_added": "13102807532000000",
+                  "id": "96",
+                  "name": "cVim - Chrome Web Store",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh/reviews"
+               }, {
+                  "date_added": "13108639983000000",
+                  "id": "97",
+                  "name": "(12) WhatsApp Web",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://web.whatsapp.com/"
+               } ],
+               "date_added": "13119485773677851",
+               "date_modified": "13120849111418201",
+               "id": "46",
+               "name": "Unsorted Bookmarks",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            } ],
+            "date_added": "13119485773676961",
+            "date_modified": "13119485773676961",
+            "id": "36",
+            "name": "Imported From Firefox",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         } ],
+         "date_added": "13119474181922700",
+         "date_modified": "13119485773468051",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13119474181922708",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "21",
+      "synced": {
+         "children": [ {
+            "date_added": "13119485772593170",
+            "id": "6",
+            "name": "eBay Tablet Web",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://touch.ebay.com/tablet/vi?itemId=251221791974&sk=SCH_663799"
+         }, {
+            "date_added": "13119485772593433",
+            "id": "7",
+            "name": "‪http://www.hauppauge.com/site/webstore2/webstore_hdpvr2-gaming.asp?product=hdpvr2_ge‬ אינו זמין",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.hauppauge.com/site/webstore2/webstore_hdpvr2-gaming.asp?product=hdpvr2_ge"
+         }, {
+            "date_added": "13119485772646933",
+            "id": "8",
+            "name": "‪http://venturebeat.com/2012/01/15/hauppauge-offers-the-worlds-leading-home-capture-device-for-video-game-footage/‬ אינו זמין",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://venturebeat.com/2012/01/15/hauppauge-offers-the-worlds-leading-home-capture-device-for-video-game-footage/"
+         }, {
+            "date_added": "13038616504456510",
+            "id": "9",
+            "name": "The Novice Chef » Chocolate Peanut Butter Mug Cake",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.thenovicechefblog.com/2013/02/chocolate-peanut-butter-mug-cake/"
+         }, {
+            "date_added": "13042991842587597",
+            "id": "10",
+            "name": "BROFORCE! (alpha build)",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://dl.dropboxusercontent.com/u/49550638/WebPlayer/OnlineAlpha.html"
+         }, {
+            "date_added": "13040632828965728",
+            "id": "11",
+            "name": "המצעד לוושינגטון למען תעסוקה וחירות – ויקיפדיה",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A6%D7%A2%D7%93_%D7%9C%D7%95%D7%95%D7%A9%D7%99%D7%A0%D7%92%D7%98%D7%95%D7%9F_%D7%9C%D7%9E%D7%A2%D7%9F_%D7%AA%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%95%D7%97%D7%99%D7%A8%D7%95%D7%AA"
+         } ],
+         "date_added": "13119474181922713",
+         "date_modified": "13119485772646933",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

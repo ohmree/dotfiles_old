@@ -149,8 +149,8 @@ bindsym $mod+minus move scratchpad
 bindsym $mod+equal scratchpad show
 
 # Take a screenshot
-bindsym Print exec scrot -e 'mv $f ~/Pictures/Screenshots'
-bindsym $mod+Print exec scrot -s
+bindsym Print exec i3-scrot
+bindsym $mod+Print exec i3-scrot -s
 
 # default border is none
 #new_window pixel 0
@@ -174,7 +174,7 @@ assign [class="Chromium"] $w1
 #		}
 #}
 # Lemonbuddy
-exec_always ~/.config/lemonbuddy/launch.sh
+exec_always --no-startup-id  ~/.config/lemonbuddy/launch.sh
 
 # Gaps
 gaps inner 10
@@ -200,10 +200,11 @@ for_window [class="Lxtask"] floating enable
 # Start some util apps
 #exec --no-startup-id mpd
 exec --no-startup-id compton -b
-exec_always feh --bg-center ~/Pictures/wallpaper.png
-#exec_always ~/.config/i3/rectangle.sh
+exec_always feh --bg-fill ~/Pictures/reimu.png
 
 client.focused          #2e2e2e #586e75 #fdf6e3 #268bd2
 client.focused_inactive #fba922 #073642 #839496 #073642
 client.unfocused        #2e2e2e #073642 #839496 #073642
 client.urgent           #2e2e2e #dc322f #fdf6e3 #002b36
+
+# vim:syntax=config

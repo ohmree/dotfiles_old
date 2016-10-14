@@ -1,1 +1,1 @@
-['dein.vim', 'neosnippet-snippets', 'neosnippet.vim', 'vimshell']
+['dein-command.vim', 'dein.vim', 'denite.nvim', 'deoplete.nvim', 'neosnippet-snippets', 'neosnippet.vim', 'vim-coloresque', 'vimshell']

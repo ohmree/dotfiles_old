@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 # Terminate already running bar instances
-lemonbuddy_terminate noconfirm
+killall -q lemonbuddy
 
 # Launch bar(s)
-lemonbuddy_wrapper top &
-#lemonbuddy_wrapper bottom &
+lemonbuddy top -r &
+lemonbuddy bottom -r &
 echo "Bar(s) launched..."
