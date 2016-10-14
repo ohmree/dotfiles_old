@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles
+My (probably mostly stolen) dotfiles
