@@ -1,5 +1,4 @@
 set
-set preview_images true
 set draw_borders
 set draw_borders=True
 set draw_borders=False
@@ -10,7 +9,6 @@ set preview_images=True
 !
 shell yaourt materialicons
 search confi
-search .config
 search .emacs
 open_with 
 open_with vim
@@ -23,3 +21,5 @@ search ncnpcp
 search .ncmp
 touch config
 set preview_images=true
+set preview_images true
+search .config

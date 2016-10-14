@@ -35,36 +35,36 @@ ws-icon-4 = 5;
 ws-icon-default = 
 
 label-focused = %icon%
-label-focused-background = #3f3f3f
+label-focused-background = #90d54e53
 label-focused-padding = 2
 
 label-unfocused = %icon%
 label-unfocused-padding = 2
 
 label-urgent = %icon%
-label-urgent-background = #bd2c40
+label-urgent-background = #785F56
 label-urgent-padding = 2
 
 label-visible = %icon%
-label-visible-foreground = #444
+label-visible-foreground = #FDE3CB
 label-visible-padding = 2
 
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-label = %{F#666}%{F#ccfafafa} %percentage%
+label = %{F#FDE3CB}%{F#FDE3CB} %percentage%
 
 
 [module/memory]
 type = internal/memory
 interval = 2
-label = %{F#666}%{F#ccfafafa} %gb_used%/%gb_total%
+label = %{F#FDE3CB}%{F#FDE3CB} %gb_used%/%gb_total%
 
 
 [module/date]
 type = internal/date
-date = %%{T0}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#fba922}%%{F#ccfafafa} %H:%M%%{T-}
+date = %%{T0}%%{F#FDE3CB}%{F#FDE3CB} %Y-%m-%d  %%{F#d54e53}%%{F#FDE3CB} %H:%M%%{T-}
 interval = 5
 
 
@@ -82,10 +82,10 @@ ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
 ramp-volume-3 = 
-ramp-volume-foreground = #666
+ramp-volume-foreground = #FDE3CB
 
-label-muted = %{F#666}%{F#ccfafafa} sound muted
-label-muted-foreground = #99
+label-muted = %{F#FDE3CB}%{F#FDE3CB} sound muted
+label-muted-foreground = #785F56
 
 
 [module/mpd]
@@ -93,7 +93,7 @@ type = internal/mpd
 
 format-online = <label-song>  <label-time>  <bar-progress>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
 format-offline = <label-offline>
-format-offline-foreground = #66
+format-offline-foreground = #785F56
 label-offline = mpd is off
 
 icon-prev = 
@@ -107,20 +107,20 @@ icon-seekf = 
 icon-random = 
 icon-repeat = 
 
-toggle-on-foreground = #fba922
-toggle-off-foreground = #66
+toggle-on-foreground = #d54e53
+toggle-off-foreground = #785F56
 
 bar-progress-width = 15
 bar-progress-indicator = 
-bar-progress-indicator-foreground = #bb
+bar-progress-indicator-foreground = #FDE3CB
 bar-progress-fill = ─
-bar-progress-fill-foreground = #bb
+bar-progress-fill-foreground = #FDE3CB
 bar-progress-fill-font = 2
 bar-progress-empty = ─
-bar-progress-empty-foreground = #44
+bar-progress-empty-foreground = #785F56
 bar-progress-empty-font = 2
 
-label-time-foreground = #55
+label-time-foreground = #FDE3CB
 label-time-font = 0
 
 

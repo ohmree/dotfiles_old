@@ -32,7 +32,8 @@ filter_unmatched_urls = true
 # font = envypn, regular, 10
 
 [colors]
-foreground      = #FFFFFF
+;foreground      = #FFFFFF
+foreground      = #FDE3CB
 foreground_bold = #FAFAFA
 cursor          = #FAFAFA
 background      = rgba(142, 26, 51, .98)
