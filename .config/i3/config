@@ -151,6 +151,7 @@ bindsym $mod+equal scratchpad show
 # Take a screenshot
 bindsym Print exec i3-scrot
 bindsym $mod+Print exec i3-scrot -s
+bindsym $alt+Print exec i3-scrot -w
 
 # default border is none
 #new_window pixel 0

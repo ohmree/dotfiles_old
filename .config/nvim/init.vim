@@ -36,6 +36,7 @@ call dein#add('gorodinskiy/vim-coloresque')
 call dein#add('Shougo/vimshell')
 call dein#add('Shougo/deoplete.nvim')
 call dein#add('Shougo/denite.nvim')
+call dein#add('dracula/vim')
 
 " Required:
 call dein#end()
@@ -50,3 +51,4 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
+"color dracula
