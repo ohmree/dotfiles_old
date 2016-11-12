@@ -1,6 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/omri/.ncmpcpp'
-let g:netrw_dirhist_2='/home/omri/.config/lemonbuddy'
-let g:netrw_dirhist_3='/home/omri/.config/cava'
-let g:netrw_dirhist_4='/home/omri/Downloads/conky-mpd/.git'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/omri/Downloads/slim-git/cmake'
+let g:netrw_dirhist_2='/home/omri/Downloads/slim-git/cmake/modules'

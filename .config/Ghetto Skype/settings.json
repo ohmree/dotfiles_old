@@ -1,0 +1,15 @@
+{
+	"StartMinimized": false,
+	"MicrosoftAccount": false,
+	"NativeImageViewer": false,
+	"Mute": false,
+	"EnableNotifications": true,
+	"OpenWhenMessaged": false,
+	"ProxyRules": "",
+	"ZoomFactor": 1,
+	"RefreshInterval": 30,
+	"mainWindow": {
+		"width": 1918,
+		"height": 1022
+	}
+}

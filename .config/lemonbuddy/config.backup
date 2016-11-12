@@ -2,78 +2,25 @@
 width = 100%
 height = 27
 
-background = #222222
-foreground = #ccfafafa
-linecolor = #666
 
-border-bottom = 2
-border-bottom-color = #333333
+background = #00000000
+foreground = #FDE3CB
+linecolor = #00000000
 
-spacing = 1
+spaceing = 1
 lineheight = 50
 padding-left = 2
 padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = envypn:style=Regular:size=15;1
+font-0 = San Francisco Display:style=Regular:size=13;2
 font-1 = Siji:pixelsize=10;0
-font-2 = Termsyn:size=13;0
-font-3 = Unifont:style=Medium:size=13;1
+font-2 = Unifont:style=Medium:size=13;1
 
 modules-left = mpd
 modules-center = i3
 modules-right = volume memory cpu date 
-
-
-[bar/bottom]
-bottom = true
-width = 100%
-height = ${bar/top.height}
-background = ${bar/top.background}
-foreground = ${bar/top.foreground}
-linecolor = ${bar/top.linecolor}
-
-border-top = 2
-border-top-color = #333333
-
-spacing = ${bar/top.spacing}
-lineheight = ${bar/top.lineheight}
-padding-right = ${bar/top.padding-right}
-module-margin-left = ${bar/top.module-margin-left}
-module-margin-right = ${bar/top.module-margin-right}
-
-font-0 = ${bar/top.font-0}
-font-1 = ${bar/top.font-1}
-
-modules-left = i3
-modules-right = pkgupdates-available
-
-
-[bar/external-bottom]
-monitor = HDMI-1
-bottom = true
-width = 100%
-height = ${bar/top.height}
-
-background = ${bar/top.background}
-foreground = ${bar/top.foreground}
-linecolor = ${bar/top.linecolor}
-
-border-top = 2
-border-top-color = #333333
-
-spacing = ${bar/top.spacing}
-lineheight = ${bar/top.lineheight}
-padding-right = ${bar/top.padding-right}
-module-margin-left = ${bar/top.module-margin-left}
-module-margin-right = ${bar/top.module-margin-right}
-
-font-0 = ${bar/top.font-0}
-font-1 = ${bar/top.font-1}
-
-modules-left = i3
-modules-right = date
 
 
 [module/i3]
@@ -88,54 +35,36 @@ ws-icon-4 = 5;
 ws-icon-default = 
 
 label-focused = %icon%
-label-focused-background = #3f3f3f
+label-focused-background = #90d54e53
 label-focused-padding = 2
 
 label-unfocused = %icon%
 label-unfocused-padding = 2
 
 label-urgent = %icon%
-label-urgent-background = #bd2c40
+label-urgent-background = #785F56
 label-urgent-padding = 2
 
 label-visible = %icon%
-label-visible-foreground = #444
+label-visible-foreground = #FDE3CB
 label-visible-padding = 2
 
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-label = %{F#666}%{F#ccfafafa} %percentage%
+label = %{F#FDE3CB}%{F#FDE3CB} %percentage%
 
 
 [module/memory]
 type = internal/memory
 interval = 2
-label = %{F#666}%{F#ccfafafa} %gb_used%/%gb_total%
-
-
-[module/wifi]
-type = internal/network
-interface = wlp2s0
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-label-connected = %essid% %{F#66}%local-ip%
-label-disconnected = %{F#666}%{F#ccfafafa} not connected
-label-disconnected-foreground = #66
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = #666
+label = %{F#FDE3CB}%{F#FDE3CB} %gb_used%/%gb_total%
 
 
 [module/date]
 type = internal/date
-date = %%{T3}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#fba922}%%{F#ccfafafa} %H:%M%%{T-}
+date = %%{T0}%%{F#FDE3CB}%{F#FDE3CB} %Y-%m-%d  %%{F#d54e53}%%{F#FDE3CB} %H:%M%%{T-}
 interval = 5
 
 
@@ -145,7 +74,7 @@ type = internal/volume
 ;headphone-mixer = Headphone
 ;headphone-control-numid = 9
 
-format-volume = <ramp-volume> <label-volume>
+format-volume = <ramp-volume> <label-volume> <bar-volume>
 label-volume = %percentage%
 label-volume-foreground = ${BAR.foreground}
 
@@ -153,10 +82,10 @@ ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
 ramp-volume-3 = 
-ramp-volume-foreground = #666
+ramp-volume-foreground = #FDE3CB
 
-label-muted = %{F#666}%{F#ccfafafa} sound muted
-label-muted-foreground = #99
+label-muted = %{F#FDE3CB}%{F#FDE3CB} sound muted
+label-muted-foreground = #785F56
 
 
 [module/mpd]
@@ -164,7 +93,7 @@ type = internal/mpd
 
 format-online = <label-song>  <label-time>  <bar-progress>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
 format-offline = <label-offline>
-format-offline-foreground = #66
+format-offline-foreground = #785F56
 label-offline = mpd is off
 
 icon-prev = 
@@ -178,52 +107,21 @@ icon-seekf = 
 icon-random = 
 icon-repeat = 
 
-toggle-on-foreground = #fba922
-toggle-off-foreground = #66
+toggle-on-foreground = #d54e53
+toggle-off-foreground = #785F56
 
 bar-progress-width = 15
 bar-progress-indicator = 
-bar-progress-indicator-foreground = #bb
+bar-progress-indicator-foreground = #FDE3CB
 bar-progress-fill = ─
-bar-progress-fill-foreground = #bb
-bar-progress-fill-font = 3
+bar-progress-fill-foreground = #FDE3CB
+bar-progress-fill-font = 2
 bar-progress-empty = ─
-bar-progress-empty-foreground = #44
-bar-progress-empty-font = 3
+bar-progress-empty-foreground = #785F56
+bar-progress-empty-font = 2
 
-label-time-foreground = #55
-
-[module/pkgupdates-available]
-type = custom/script
-
-; Available tokens:
-;   %counter%
-; The "exec" command will be executed using "/usr/bin/env sh -c [command]"
-exec = count=$(sudo pacman -Syup --noprogressbar 2>/dev/null | sed '/Starting full/,~1!d;/Starting full/d' | wc -l); [ $count -gt 0 ] && echo "Updates available: $count"
-;exec = count=$(echo n | sudo xbps-install -Su >/dev/null 2>&1; sudo xbps-install -Sun | wc -l); [ $count -gt 0 ] && echo "Updates available: $count"
-
-; Should we keep listening for output from the command?
-;tail = false
-
-; Seconds to sleep between updates
-; Will be ignored if `tail = true`
-; Default: 1
-interval = 90
-
-; Limit the length of the output string
-; Default: 0
-maxlen = 20
-
-; Add trailing ellipsis when truncating the string
-; Default: true
-ellipsis = true
-
-
-[module/xtitle]
-type = custom/script
-exec = xtitle -s
-tail = true
-maxlen = 25
+label-time-foreground = #FDE3CB
+label-time-font = 0
 
 
 ; vim:ft=dosini

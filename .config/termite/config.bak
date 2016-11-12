@@ -1,0 +1,68 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = MesloLGMDZ Nerd Font, regular
+scrollback_lines = 10000
+search_wrap = true
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = chromium
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# font = envypn, regular, 10
+
+[colors]
+;foreground      = #FFFFFF
+foreground      = #FDE3CB
+foreground_bold = #FAFAFA
+cursor          = #FAFAFA
+background      = rgba(142, 26, 51, .98)
+;background = #343d46
+
+# 16 color space
+color0  = #343d46
+color1  = #d54e53
+color2  = #b9ca4a
+color3  = #e7c547
+color4  = #7aa6da
+color5  = #c397d8
+color6  = #70c0b1
+color7  = #dfe1e8
+color8  = #a7adba
+color9  = #d54e53
+color10 = #b9ca4a
+color11 = #e7c547
+color12 = #7aa6da
+color13 = #c397d8
+color14 = #70c0b1
+color15 = #ffffff
+
+# 256 color space
+color16 = #e78c45
+color17 = #9a806d
+color18 = #4f5b66
+color19 = #65737e
+color20 = #c0c5ce
+color21 = #eff1f5
+
+; vim:ft=dosini

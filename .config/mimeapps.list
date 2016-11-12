@@ -5,3 +5,6 @@ application/zip=xarchiver.desktop;
 text/x-patch=userapp-nvim-1B1YNY.desktop;
 image/png=feh.desktop;
 image/jpeg=feh.desktop;
+audio/aac=mpv.desktop;
+application/octet-stream=xarchiver.desktop;
+text/plain=nvim-gtk3.desktop;

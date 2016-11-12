@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "id": "f6e341af-e6f6-1ea8-836b-12d51c0636f3",
+    "locale": "en_GB",
+    "runInBackground": true,
+    "globalMute": false,
+    "usage": {},
+    "autoStartApp": true
+  }
+}

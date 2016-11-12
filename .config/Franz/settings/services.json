@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "notifications": true,
+      "count_message_direct": 0,
+      "count_message_indirect": 0,
+      "zoom": 0,
+      "showIndirectMessages": true,
+      "enabled": true,
+      "focusMode": true,
+      "id": "ef4a42af-f6b1-20b8-5709-3025c9b9577e",
+      "order": 2,
+      "service": "skype",
+      "name": "",
+      "mute_audio": false,
+      "customURL": false
+    }
+  ]
+}

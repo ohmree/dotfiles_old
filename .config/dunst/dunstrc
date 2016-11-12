@@ -1,5 +1,5 @@
 [global]
-    font = "envypn, 10"
+    font = "San Francisco Display,  10"
     allow_markup = yes
     format = "<b>%s</b> %p\n%b"
     sort = yes
@@ -22,8 +22,8 @@
     horizontal_padding = 16
     separator_color = auto
     startup_notification = false
-    dmenu = /usr/bin/dmenu -p dunst:
-    browser = /home/jaagr/bin/apps/vimperator
+    dmenu = /usr/bin/rofi -dmenu -p dunst:
+    browser = /usr/bin/chromium
 
 [frame]
     width = 5
